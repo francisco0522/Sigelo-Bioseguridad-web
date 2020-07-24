@@ -7566,7 +7566,7 @@ return P.Y($async$a3n,s)},
 a2V:function(a,b,c,d){var t=0,s=P.Z(u.z),r,q
 var $async$a2V=P.U(function(e,f){if(e===1)return P.W(f,s)
 while(true)switch(t){case 0:t=2
-return P.a3(G.aby(C.c.J("http://192.168.199.189:3000/product/",a)),$async$a2V)
+return P.a3(G.aby(C.c.J("http://45.79.209.81:3000/product/",a)),$async$a2V)
 case 2:r=b.bP(u.f)
 q=u.z
 r.iC(V.eI(new K.a2W(c,d),null,q),new K.a2X(),q)
@@ -28263,7 +28263,7 @@ case 2:l.P(j.a,"token")
 q=u.X
 p=P.aC(["Accept","application/json"],q,q)
 t=3
-return P.a3(G.y5("http://192.168.199.189:3000/products",P.aC(["name",a,"price",b,"stock",c,"nit",H.b(d),"categoria",H.b(e),"descripcion",f,"razon",H.b(g),"mostrar",H.b(h)],q,q),p),$async$mh)
+return P.a3(G.y5("http://45.79.209.81:3000/products",P.aC(["name",a,"price",b,"stock",c,"nit",H.b(d),"categoria",H.b(e),"descripcion",f,"razon",H.b(g),"mostrar",H.b(h)],q,q),p),$async$mh)
 case 3:o=j
 p=o.e
 q=B.hq(U.hm(p).c.a.h(0,"charset"))
@@ -28525,7 +28525,7 @@ R.GA.prototype={
 d0:function(a){var t=0,s=P.Z(u.w),r,q
 var $async$d0=P.U(function(b,c){if(b===1)return P.W(c,s)
 while(true)switch(t){case 0:t=3
-return P.a3(G.ab_("http://192.168.199.189:3000/products/"),$async$d0)
+return P.a3(G.ab_("http://45.79.209.81:3000/products/"),$async$d0)
 case 3:q=c
 r=C.ac.bB(0,B.hq(U.hm(q.e).c.a.h(0,"charset")).bB(0,q.x))
 t=1
@@ -28621,7 +28621,7 @@ K.GB.prototype={
 d0:function(a){var t=0,s=P.Z(u.w),r,q=this,p
 var $async$d0=P.U(function(b,c){if(b===1)return P.W(c,s)
 while(true)switch(t){case 0:t=3
-return P.a3(G.ab_(C.c.J("http://192.168.199.189:3000/productBy/",q.a.c)),$async$d0)
+return P.a3(G.ab_(C.c.J("http://45.79.209.81:3000/productBy/",q.a.c)),$async$d0)
 case 3:p=c
 r=C.ac.bB(0,B.hq(U.hm(p.e).c.a.h(0,"charset")).bB(0,p.x))
 t=1
@@ -28768,7 +28768,7 @@ return P.a3(V.nU(),$async$jV)
 case 2:m=d
 l=u.z
 t=3
-return P.a3(G.y5("http://192.168.199.189:3000/signin",P.aC(["email",a,"password",b],l,l),null),$async$jV)
+return P.a3(G.y5("http://45.79.209.81:3000/signin",P.aC(["email",a,"password",b],l,l),null),$async$jV)
 case 3:k=d
 j=C.ac.bB(0,B.hq(U.hm(k.e).c.a.h(0,"charset")).bB(0,k.x))
 i=k.b
@@ -28892,7 +28892,7 @@ return P.a3(V.nU(),$async$jW)
 case 2:l=g
 k=u.z
 t=3
-return P.a3(G.y5("http://192.168.199.189:3000/searchUser",P.aC(["email",b],k,k),null),$async$jW)
+return P.a3(G.y5("http://45.79.209.81:3000/searchUser",P.aC(["email",b],k,k),null),$async$jW)
 case 3:j=g
 i=C.ac.bB(0,B.hq(U.hm(j.e).c.a.h(0,"charset")).bB(0,j.x))
 h=J.ak(i)
@@ -28903,7 +28903,7 @@ case 4:r.oo()
 t=5
 break
 case 6:t=7
-return P.a3(G.y5("http://192.168.199.189:3000/signupClient",P.aC(["username",a,"email",b,"password",c,"address",d,"phone",e],k,k),null),$async$jW)
+return P.a3(G.y5("http://45.79.209.81:3000/signupClient",P.aC(["username",a,"email",b,"password",c,"address",d,"phone",e],k,k),null),$async$jW)
 case 7:q=g
 h=q.e
 p=B.hq(U.hm(h).c.a.h(0,"charset"))
@@ -28927,7 +28927,7 @@ IZ:function(a,b,c,d,e){var t=0,s=P.Z(u.z),r=this,q,p,o,n,m,l,k
 var $async$ly=P.U(function(f,g){if(f===1)return P.W(g,s)
 while(true)switch(t){case 0:l=u.z
 t=2
-return P.a3(G.y5("http://192.168.199.189:3000/searchUser",P.aC(["email",d],l,l),null),$async$ly)
+return P.a3(G.y5("http://45.79.209.81:3000/searchUser",P.aC(["email",d],l,l),null),$async$ly)
 case 2:k=g
 t=J.d(J.P(C.ac.bB(0,B.hq(U.hm(k.e).c.a.h(0,"charset")).bB(0,k.x)),"existe"),!0)?3:5
 break
@@ -28935,7 +28935,7 @@ case 3:r.oo()
 t=4
 break
 case 5:t=6
-return P.a3(G.y5("http://192.168.199.189:3000/signupProveedor",P.aC(["nit",a,"razon",b,"phone",c,"email",d,"password",e],l,l),null),$async$ly)
+return P.a3(G.y5("http://45.79.209.81:3000/signupProveedor",P.aC(["nit",a,"razon",b,"phone",c,"email",d,"password",e],l,l),null),$async$ly)
 case 6:q=g
 p=q.e
 o=B.hq(U.hm(p).c.a.h(0,"charset"))
